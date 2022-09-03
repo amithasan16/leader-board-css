@@ -21,7 +21,7 @@ main{
     grid-template-columns: repeat(2,1fr);
    
 }
-.menu-link, button{
+.menu-link, .l1{
     margin-left: 60px;
     font-size: 1em;
     padding-left: 20px;
@@ -31,7 +31,14 @@ main{
     
     padding: 10px;
     border-radius: 6px;
+    color: limegreen;
     
+    
+}
+button{
+    
+    border-radius: 6px;
+    color: blue;
 }
 
 .menu-link, button, a{
